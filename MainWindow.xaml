@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <RadioButton x:Name="person" Content="Вы" HorizontalAlignment="Left" Margin="349,45,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.576,0.525" Checked="RadioButton_Checked" IsChecked="False" IsEnabled="False"/>
+        <RadioButton x:Name="robot" Content="Робот" HorizontalAlignment="Left" Margin="418,45,0,0" VerticalAlignment="Top" IsEnabled="False" Checked="RadioButton_Checked"/>
+        <Button x:Name="one" Content="" HorizontalAlignment="Left" Margin="254,114,0,0" VerticalAlignment="Top" Height="83" Width="90"  Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="two" Content="" HorizontalAlignment="Left" Margin="349,114,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked"  IsEnabled="False"/>
+        <Button x:Name="three" Content="" HorizontalAlignment="Left" Margin="444,114,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="four" Content="" HorizontalAlignment="Left" Margin="254,202,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="five" Content="" HorizontalAlignment="Left" Margin="349,202,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="six" Content="" HorizontalAlignment="Left" Margin="444,202,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="seven" Content="" HorizontalAlignment="Left" Margin="254,290,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="eight" Content="" HorizontalAlignment="Left" Margin="349,290,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="nine" Content="" HorizontalAlignment="Left" Margin="444,290,0,0" VerticalAlignment="Top" Width="90" Height="83" Click="Button_Clicked" IsEnabled="False"/>
+        <Button x:Name="Start" Content="Старт" HorizontalAlignment="Left" Margin="281,391,0,0" VerticalAlignment="Top" Height="33" Width="232" Click="Start_Click"/>
+
     </Grid>
 </Window>
